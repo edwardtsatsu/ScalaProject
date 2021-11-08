@@ -22,6 +22,7 @@ object Hello {
     println(s"the addition of the two numbers are =  $total")
   }
 
+
   def convertStringContainingDate(date: String): Unit ={
     val input = new SimpleDateFormat("dd/MM/y")
     val output = new SimpleDateFormat("dd MMMM y")
