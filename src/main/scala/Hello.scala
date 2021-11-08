@@ -13,7 +13,7 @@ object Hello {
 
   def convertCelsiusToFahrenheit(value: Double): Unit ={
     val con = (value * 9 / 5 ) + 32
-    println(s"The value for $value celsius to fahrenheit is = $con")
+    println(s"The value for $value celsius to fahrenheit is = : $con")
 
   }
 
