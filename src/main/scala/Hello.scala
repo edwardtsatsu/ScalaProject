@@ -4,7 +4,7 @@ object Hello {
 
   def main(args: Array[String]): Unit = {
     println("hello world I am in scala!")
-    add(4,6)
+    add(4,7)
     convertCelsiusToFahrenheit(7)
     convertStringContainingDate("01/02/15")
 
