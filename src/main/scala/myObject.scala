@@ -3,6 +3,8 @@ object myObject extends App { //because we have a static main method in App
   val tradeInstance  = new Trade(34.4,"V",56,45)
   println(s"The trade  has = : $tradeInstance")
 
+
+
 //  val mytrade = new Trade()...........
 
 
@@ -27,6 +29,8 @@ object myObject extends App { //because we have a static main method in App
 //  def this(w:Int, h: Int){
 //    this.(w,h,1)
 //  }
+
+  // when I remove the val in the constructor, it makes it a parameter and not an attribute of the class
 
 
 
