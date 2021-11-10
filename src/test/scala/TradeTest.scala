@@ -7,6 +7,7 @@ class TradeTest extends AnyFunSuite{
   test("The price of the trade class should be 78") {
     assert(myTrade1.price.==(78))
     assert(myTrade1.quantity.equals(67))
+    assert(myTrade1.value.==(5226))
 
 
   }
