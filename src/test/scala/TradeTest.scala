@@ -9,7 +9,6 @@ class TradeTest extends AnyFunSuite{
     assert(myTrade1.quantity.equals(67))
     assert(myTrade1.value.==(5226))
 
-
   }
 
 
